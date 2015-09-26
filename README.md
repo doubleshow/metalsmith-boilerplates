@@ -1,14 +1,15 @@
 # metalsmith-boilerplates
 
-> A collection of boilerplates for metalsmith
+### in-place/complete
 
-This repository aims to provide boilerplates for common metalsmith use-cases. Feel free to add or modify boilerplates by submitting a pull request, or if there are any questions feel free to open an issue!
+Demonstrates static site development with [metalsmith-in-place](https://github.com/superwolff/metalsmith-in-place). Rather opinionated, so change, add and remove parts as you see fit. It's merely meant to illustrate what metalsmith-in-place can do, and help you get started quickly.
 
-#### [metalsmith-layouts](https://github.com/superwolff/metalsmith-layouts)
+##### Required
 
-* [layouts/extends](https://github.com/superwolff/metalsmith-boilerplates/tree/layouts/extends): Demonstrates the use of extends and includes.
-* [layouts/complete](https://github.com/superwolff/metalsmith-boilerplates/tree/layouts/complete): Demonstrates static site development.
+* [node](https://nodejs.org/en/)
 
-#### [metalsmith-in-place](https://github.com/superwolff/metalsmith-in-place)
+##### Getting started
 
-* [in-place/complete](https://github.com/superwolff/metalsmith-boilerplates/tree/in-place/complete): Demonstrates static site development.
+1. Clone this repository
+2. Run `npm install` in the folder you've cloned to
+3. Run `make serve` to develop and `make build` to build a production ready version
