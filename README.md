@@ -1,9 +1,15 @@
 # metalsmith-boilerplates
 
-> A collection of boilerplates for metalsmith
+### layouts/complete
 
-This repository aims to provide boilerplates for common metalsmith use-cases. Feel free to add or modify boilerplates by submitting a pull request!
+Demonstrates static site development with [metalsmith-layouts](https://github.com/superwolff/metalsmith-layouts). Rather opinionated, so change, add and remove parts as you see fit. It's merely meant to illustrate what metalsmith-layouts can do, and help you get started quickly.
 
-#### [metalsmith-layouts](https://github.com/superwolff/metalsmith-layouts)
+##### Required
 
-* [layouts/extends](https://github.com/superwolff/metalsmith-boilerplates/tree/layouts/extends): Demonstrates the use of extends and includes.
+* [node](https://nodejs.org/en/)
+
+##### Getting started
+
+1. Clone this repository
+2. Run `npm install` in the folder you've cloned to
+3. Run `make serve` to develop and `make build` to build a production ready version
