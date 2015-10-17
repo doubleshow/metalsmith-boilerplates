@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    {# The fingerprint variable will contain references to our fingerprinted assets #}
+    <link rel="stylesheet" href="{{ fingerprint['index.css'] }}">
+  </head>
+  <body>
+    {{ contents }}
+    {# The fingerprint variable will contain references to our fingerprinted assets #}
+    <script src="{{ fingerprint['index.js'] }}"></script>
+  </body>
+</html>

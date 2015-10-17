@@ -1,7 +1,7 @@
 /**
  * Dependencies
  */
-var filenames = require('metalsmith-filenames');
+var fingerprint = require('metalsmith-fingerprint-ignore');
 var layouts = require('metalsmith-layouts');
 var metalsmith = require('metalsmith');
 
@@ -9,7 +9,9 @@ var metalsmith = require('metalsmith');
  * Build
  */
 metalsmith(__dirname)
-  .use(filenames()) // Necessary for extends and includes
+  .use(fingerprint({
+    pattern: ['*.css', '*.js']
+  }))
   .use(layouts('swig'))
 
   .build(function(err){

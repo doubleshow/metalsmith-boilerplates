@@ -1,8 +1,8 @@
 # metalsmith-boilerplates
 
-### layouts/extends
+### fingerprint-ignore/css-js
 
-Demonstrates the use of extends and includes with [metalsmith-layouts](https://github.com/superwolff/metalsmith-layouts). Uses [swig](https://paularmstrong.github.io/swig/), but other templating languages can be used as well, as long as they support extends and includes.
+Demonstrates how to fingerprint css and js with [metalsmith-fingerprint-ignore](https://github.com/superwolff/metalsmith-fingerprint-ignore). Uses [metalsmith-layouts](https://github.com/superwolff/metalsmith-layouts) to process the templates, but the variables from metalsmith-fingerprint-ignore can be used by other plugins as well.
 
 ##### Required
 
